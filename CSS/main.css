@@ -1,3 +1,59 @@
+body {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 4fr 4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+section svg {
+  grid-column: 1 / span 7;
+  grid-row: 1 / span 4;
+  z-index: -1;
+}
+section header{
+  grid-column: 2/4;
+  grid-row: 2;
+  z-index: 2;
+}
+
+section article {
+  grid-column: 2/3;
+}
+
+section div img {
+  grid-column: 4/ span 6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 img{
   height: 600px;
   width: 100%;
