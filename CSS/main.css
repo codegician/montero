@@ -1,11 +1,11 @@
 body {
   font-family: "Montserrat", sans-serif;
-
+  font-size: 16px;
 }
 
 section{
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr 4fr 4fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr 8fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
@@ -18,43 +18,38 @@ section header{
   grid-column: 2/4;
   grid-row: 2;
   z-index: 2;
+
+}
+section header h1{
+  background-color: #FFF;
+  /* font-weight: 500; */
+  font-size: 2em;
+
 }
 
+section header h1:last-of-type{
+  background-color: #FFF;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+section header h4{
+  background-color: #FFF;
+  padding: 8px 0;
+
+}
 section article {
   grid-column: 2/3;
 }
 
-section div img {
-  grid-column: 4/ span 6
+section div {
+  grid-column: 4/5;
+  /* height: auto; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-img{
-  height: 600px;
+img {
   width: 100%;
 }
+
+-
