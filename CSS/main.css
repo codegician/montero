@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
@@ -41,14 +41,40 @@ section header h4{
 }
 section article {
   grid-column: 2/3;
+  grid-row: 1/ span 5;
 }
 
 section div {
   grid-column: 4/5;
-  /* height: auto; */
+  grid-row: 2/ span 5;
 }
 
-img {
+article h2{
+  font-weight: 600;
+  font-size: 2em;
+  padding: 10vh 0 3vh 0;
+}
+
+article h4{
+  font-size: 1em;
+  padding-bottom: 15vh;
+}
+
+p {
+  padding: 2vh 0;
+  line-height: 160%;
+  font-size: .8em;
+}
+
+p strong {
+  font-weight: 600;
+  font-weight: bold;
+}
+ li{
+  line-height: 120%;
+  font-size: .8em;
+}
+div svg {
   width: 100%;
 }
 
